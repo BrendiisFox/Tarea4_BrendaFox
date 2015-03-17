@@ -82,14 +82,14 @@ public class Ejercicios {
 	//Devuelve el numero menor almacenado en 'mi_lista'
 	static int getMenor(ArrayList<Integer> mi_lista)
 	{
-		int menor = Integer.MIN_VALUE;
+		int menor = Integer.MAX_VALUE;
 		
-		//Min_Value y Max_Value Todos los tipos numÈricos tienen un valor m·ximo y mÌnimo que pueden representar. SÛlo tantos bytes est·n disponibles-esto limita n˙meros.
+		//Min_Value y Max_Value Todos los tipos num√©ricos tienen un valor m√°ximo y m√≠nimo que pueden representar. S√≥lo tantos bytes est√°n disponibles-esto limita n√∫meros.
 		//http://www.dotnetperls.com/integer-max-value
 		
 		for(int b = 0; b < mi_lista.size(); b++)	
 			
-			//b es menor que el tamaÒo d ela lista, se inicializa en cero.
+			//b es menor que el tama√±o d ela lista, se inicializa en cero.
 			
 		{
 			if(menor > mi_lista.get(b)) menor=mi_lista.get(b); 
@@ -108,7 +108,7 @@ public class Ejercicios {
 	
 		int largo = mi_lista.size();
 		
-		//Se comienza el ciclo donde el tamaÒo de la lista sea menor que b
+		//Se comienza el ciclo donde el tama√±o de la lista sea menor que b
 		
 		for(int b = 0; b < largo; b++)
 		{
